@@ -21,10 +21,13 @@ public class Group {
 
     public Group(String name, String[] usernames, String createDate){
         this.name = name;
+
         Account[] accounts = new Account[usernames.length];
-        for (int i = 0; i < accounts.length; i++) {
-            accounts[i].setUsername(usernames[i]);
+        for (int i = 0; i < usernames.length; i++) {
+            accounts[i] = new Account(usernames[i]);
         }
+        this.accounts = accounts;
+
         this.createDate = LocalDate.parse(createDate);
     }
 

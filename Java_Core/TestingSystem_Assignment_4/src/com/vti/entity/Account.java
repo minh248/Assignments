@@ -38,6 +38,11 @@ public class Account {
         this.createDate = LocalDate.parse(createDate);
     }
 
+    public Account(String username) {
+        this.username = username;
+    }
+
+
     @Override
     public String toString() {
         return "ID: " + this.id + " | "
