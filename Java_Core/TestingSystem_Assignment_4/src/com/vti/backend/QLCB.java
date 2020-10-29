@@ -80,6 +80,3 @@ public class QLCB {
         canBos.removeIf(cb -> hoTen.contains(cb.getName()));
     }
 }
-
-// test
-
