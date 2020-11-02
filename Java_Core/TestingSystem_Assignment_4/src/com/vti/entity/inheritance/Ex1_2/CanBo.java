@@ -20,13 +20,23 @@ public class CanBo {
         age = scanner.nextByte();
 
         System.out.println("Nhập giới tính (0:Nam, 1:Nữ, khác: Unknown): ");
-        setGender(scanner.nextInt());
+        int g = scanner.nextInt();
+        if (g == 0) {
+            gender = Gender.MALE;
+        } else if (g == 1) {
+            gender = Gender.FEMALE;
+        } else {
+            gender = Gender.UNKNOW;
+        }
+
+        // Using to avoid skipping
+        scanner.nextLine();
 
         System.out.println("Nhập địa chỉ: ");
         address = scanner.nextLine();
 
         System.out.println("finish!!");
-        scanner.close();
+
     }
 
     public String getName() {

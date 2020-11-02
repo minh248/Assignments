@@ -46,8 +46,6 @@ public class Inheritance {
 
                 canBo.input();
                 canBos.add(canBo);
-
-                scanner.close();
             }
         }
 
@@ -56,6 +54,7 @@ public class Inheritance {
             Scanner scanner = new Scanner(System.in);
 
             String name;
+
             System.out.println("Nhập họ tên cần tìm: ");
             name = scanner.nextLine();
 
