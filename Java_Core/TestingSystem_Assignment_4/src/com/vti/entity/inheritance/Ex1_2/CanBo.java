@@ -25,6 +25,7 @@ public class CanBo {
         System.out.println("Nhập địa chỉ: ");
         address = scanner.nextLine();
 
+        System.out.println("finish!!");
         scanner.close();
     }
 
@@ -50,11 +51,11 @@ public class CanBo {
 
     public void setGender(int gender) {
         if (gender == 0) {
-            this.gender = Gender.valueOf("MALE");
+            this.gender = Gender.MALE;
         } else if (gender == 1) {
-            this.gender = Gender.valueOf("FEMALE");
+            this.gender = Gender.FEMALE;
         } else {
-            this.gender = Gender.valueOf("UNKNOWN");
+            this.gender = Gender.UNKNOW;
         }
     }
 
