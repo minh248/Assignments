@@ -1,12 +1,13 @@
-package com.vti.entity;
+package com.vti.entity.abstraction.Ex1;
 
 public class News implements INews{
     private int id;
     private String title;
-    private String pulishDate;
+    private String publishDate;
     private String author;
     private String content;
     private float averageRate;
+    private int[] rates;
 
     public int getId() {
         return id;
@@ -24,12 +25,12 @@ public class News implements INews{
         this.title = title;
     }
 
-    public String getPulishDate() {
-        return pulishDate;
+    public String getPublishDate() {
+        return publishDate;
     }
 
-    public void setPulishDate(String pulishDate) {
-        this.pulishDate = pulishDate;
+    public void setPublishDate(String pulishDate) {
+        this.publishDate = pulishDate;
     }
 
     public String getAuthor() {
@@ -52,17 +53,21 @@ public class News implements INews{
         return averageRate;
     }
 
+    public void setRates(int[] rates) {
+        this.rates = rates;
+    }
+
     @Override
-    public void Display() {
+    public void display() {
         System.out.println("title='" + title + '\'' +
-                ", pulishDate='" + pulishDate + '\'' +
+                ", pulishDate='" + publishDate + '\'' +
                 ", content='" + content + '\'' +
                 ", averageRate=" + averageRate);
     }
 
     @Override
-    public float Calculate() {
-
-        return 0;
+    public float calculate() {
+        averageRate = (float) (rates[0] + rates[1] + rates[2]) / 3;
+        return averageRate;
     }
 }
