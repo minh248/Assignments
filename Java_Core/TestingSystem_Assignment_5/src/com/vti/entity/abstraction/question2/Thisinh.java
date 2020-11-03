@@ -1,4 +1,4 @@
-package com.vti.entity.abstraction.Ex2;
+package com.vti.entity.abstraction.question2;
 
 public class Thisinh {
     private String sbd;

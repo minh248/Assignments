@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c7a39f7-6a6b-4652-b1d7-fc233758e932" name="Default Changelist" comment="" />
+    <list default="true" id="1c7a39f7-6a6b-4652-b1d7-fc233758e932" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/backend/MyNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/backend/MyNews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/entity/abstraction/INews.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/entity/abstraction/News.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/frontend/AbstractionProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vti/backend/MyNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/MyNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vti/backend/TuyenSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/backend/TuyenSinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vti/entity/abstraction/Ex1/INews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/abstraction/Question1/INews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vti/entity/abstraction/Ex1/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/abstraction/Question1/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vti/entity/abstraction/Ex2/Khoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/abstraction/Question2/Khoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vti/entity/abstraction/Ex2/Thisinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vti/entity/abstraction/Question2/Thisinh.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -29,6 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/vti/entity/polymophism/Ex1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -37,11 +50,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Assignments\Java_Core\TestingSystem_Assignment_5\src\com\vti\entity\polymophism\Ex1" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.vti.entity.abstraction" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AbstractionProgram_1">
+  <component name="RunManager">
     <configuration name="AbstractionProgram_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.vti.frontend.AbstractionProgram_1" />
       <module name="TestingSystem_Assignment_5" />
@@ -65,8 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PolymophismProgram_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vti.frontend.PolymophismProgram_1" />
+      <module name="TestingSystem_Assignment_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vti.frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PolymophismProgram_1" />
         <item itemvalue="Application.AbstractionProgram_1" />
         <item itemvalue="Application.Main" />
       </list>
@@ -83,7 +113,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604305272504</updated>
       <workItem from="1604305276457" duration="1956000" />
-      <workItem from="1604325317294" duration="5038000" />
+      <workItem from="1604325317294" duration="5119000" />
+      <workItem from="1604404488388" duration="6828000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1604305322338</created>
@@ -99,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604333651866</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1604335820639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604335820639</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,38 +148,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="44" key="#com.intellij.ide.util.MemberChooser" timestamp="1604328007445">
+    <state x="446" y="44" key="#com.intellij.ide.util.MemberChooser" timestamp="1604411888869">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="446" y="44" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1604328007445" />
+    <state x="446" y="44" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1604411888869" />
     <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604326583624">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1604326583623" />
-    <state x="169" y="0" key="CommitChangelistDialog2" timestamp="1604333650959">
+    <state x="169" y="0" key="CommitChangelistDialog2" timestamp="1604335819915">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="169" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1604333650959" />
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1604326440494">
+    <state x="169" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1604335819915" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1604409509056">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1604326440494" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1604326440494">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1604409509056" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1604409509056">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1604326440494" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1604326440494">
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1604409509056" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1604409509056">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1604326440494" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1604326440494">
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1604409509056" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1604409509056">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1604326440494" />
-    <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1604333654982">
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1604409509056" />
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1604335824923">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1604333654982" />
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1604335824923" />
     <state x="0" y="0" width="587" height="720" key="find.popup" timestamp="1604305596289">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

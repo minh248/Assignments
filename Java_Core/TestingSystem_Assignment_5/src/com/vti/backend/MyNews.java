@@ -1,6 +1,6 @@
 package com.vti.backend;
 
-import com.vti.entity.abstraction.Ex1.News;
+import com.vti.entity.abstraction.question1.News;
 
 import java.util.ArrayList;
 import java.util.Scanner;

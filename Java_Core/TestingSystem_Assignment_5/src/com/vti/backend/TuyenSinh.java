@@ -1,7 +1,7 @@
 package com.vti.backend;
 
-import com.vti.entity.abstraction.Ex2.Khoi;
-import com.vti.entity.abstraction.Ex2.Thisinh;
+import com.vti.entity.abstraction.question2.Khoi;
+import com.vti.entity.abstraction.question2.Thisinh;
 
 import java.util.ArrayList;
 import java.util.Scanner;

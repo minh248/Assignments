@@ -1,4 +1,4 @@
-package com.vti.entity.abstraction.Ex1;
+package com.vti.entity.abstraction.question1;
 
 public class News implements INews{
     private int id;
