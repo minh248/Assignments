@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c7a39f7-6a6b-4652-b1d7-fc233758e932" name="Default Changelist" comment="">
+    <list default="true" id="1c7a39f7-6a6b-4652-b1d7-fc233758e932" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/backend/MyNews.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/backend/MyNews.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/backend/StudentManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/backend/StudentManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/backend/TuyenSinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/backend/TuyenSinh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/entity/abstraction/Ex1/INews.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/entity/abstraction/Ex1/News.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/entity/abstraction/Ex2/Khoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/entity/abstraction/Ex2/Thisinh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/entity/polymophism/IStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/entity/polymophism/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestingSystem_Assignment_5/com/vti/frontend/PolymophismProgram.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -123,7 +133,7 @@
       <workItem from="1604305276457" duration="1956000" />
       <workItem from="1604325317294" duration="5119000" />
       <workItem from="1604404488388" duration="7288000" />
-      <workItem from="1604562732499" duration="3475000" />
+      <workItem from="1604562732499" duration="3846000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1604305322338</created>
@@ -160,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604412726139</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1604568723007</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604568723007</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,10 +188,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="44" key="#com.intellij.ide.util.MemberChooser" timestamp="1604566796997">
+    <state x="446" y="44" key="#com.intellij.ide.util.MemberChooser" timestamp="1604568484939">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="446" y="44" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1604566796997" />
+    <state x="446" y="44" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1604568484939" />
     <state x="351" y="233" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1604566492041">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -183,34 +200,38 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1604326583623" />
-    <state x="169" y="0" key="CommitChangelistDialog2" timestamp="1604412725479">
+    <state x="169" y="0" key="CommitChangelistDialog2" timestamp="1604568722338">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="169" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1604412725479" />
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1604567941962">
+    <state x="169" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1604568722338" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1604568790554">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1604567941962" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1604567941962">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1604568790554" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1604568790554">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1604567941962" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1604567941962">
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1604568790554" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1604568790554">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1604567941962" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1604567941962">
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1604568790554" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1604568790554">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1604567941962" />
-    <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1604412739512">
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1604568790554" />
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2" timestamp="1604568726422">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1604412739512" />
+    <state x="233" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1604568726422" />
     <state x="0" y="0" width="587" height="720" key="find.popup" timestamp="1604305596289">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" width="587" height="720" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1604305596289" />
+    <state x="81" y="0" key="new project wizard" timestamp="1604568789021">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="81" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1604568789021" />
     <state x="297" y="161" key="run.anything.popup" timestamp="1604327285787">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
