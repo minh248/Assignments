@@ -1,22 +1,21 @@
-package com.vti.entity.ex1;
+package com.vti.entity;
 
 import com.vti.utils.ScannerUtils;
 
-public class Department {
+public class Position {
 
 	private int id;
 	private String name;
 
-	public Department() {
+	public Position() {
 		input();
 	}
 
-	public Department(int id, String name) {
+	public Position(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
 
-	// Question 9
 	private void input() {
 		System.out.println("Nhập id : ");
 		id = ScannerUtils.inputInt("Please input a id as int, please input again.");
@@ -27,7 +26,6 @@ public class Department {
 
 	@Override
 	public String toString() {
-		return "Department{" + "id=" + id + ", name='" + name + '\'' + '}';
+		return "Position{" + "id=" + id + ", name='" + name + '\'' + '}';
 	}
-
 }

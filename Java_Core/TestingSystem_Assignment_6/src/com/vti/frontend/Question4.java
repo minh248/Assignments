@@ -1,6 +1,6 @@
-package com.vti.frontend.ex1;
+package com.vti.frontend;
 
-import com.vti.entity.ex1.Department;
+import com.vti.entity.Department;
 
 public class Question4 {
     private static Department[] departments = new Department[3];

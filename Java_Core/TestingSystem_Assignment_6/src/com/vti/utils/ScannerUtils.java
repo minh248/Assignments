@@ -2,6 +2,8 @@ package com.vti.utils;
 
 import java.util.Scanner;
 
+import com.vti.backend.exception.InvalidAgeInputingException;
+
 public class ScannerUtils {
     private static Scanner scanner = new Scanner(System.in);
 
@@ -46,12 +48,13 @@ public class ScannerUtils {
         }
     }
 
-    public static int inputAge() {
+    public static int inputAge() throws InvalidAgeInputingException {
         while (true) {
             int age = inputInt("Wrong inputing! Please input an age as int, input again.");
 
             if (age < 1) {
-                System.err.println("Wrong inputing! The age must be greater than 0, please input again.");
+//                System.err.println("Wrong inputing! The age must be greater than 0, please input again.");
+                throw new InvalidAgeInputingException("The age must be greater than 0");
             } else {
                 return age;
             }

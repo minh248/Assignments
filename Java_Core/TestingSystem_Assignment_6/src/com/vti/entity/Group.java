@@ -1,4 +1,4 @@
-package com.vti.entity.ex1;
+package com.vti.entity;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -36,10 +36,10 @@ public class Group {
 
 			switch (choose) {
 			case 1:
+				addAccount();
 				return;
 
 			case 2:
-				addAccount();
 				return;
 
 			default:

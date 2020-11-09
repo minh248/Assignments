@@ -1,4 +1,4 @@
-package com.vti.frontend.ex1;
+package com.vti.frontend;
 
 public class Question3 {
     public static void main(String[] args) {

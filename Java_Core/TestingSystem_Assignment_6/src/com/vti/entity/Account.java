@@ -1,4 +1,4 @@
-package com.vti.entity.ex1;
+package com.vti.entity;
 
 //import com.vti.backend.exception.InvalidAgeInputingException;
 import com.vti.utils.ScannerUtils;
