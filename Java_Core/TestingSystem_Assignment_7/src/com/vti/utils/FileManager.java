@@ -17,7 +17,7 @@ public class FileManager {
     private static final String FILE_NOT_EXISTS = "Error! File Not Exist.";
     private static final String DELETE_FILE_SUCCESSFULLY = "Delete File Successfully.";
     private static final String PATH_NOT_FOLDER = "Error! Path Is Not Folder.";
-    private static final String SOURCE_FILE_NOT_EXISTS =  "Error! Source File Does Not Exist.";
+    private static final String SOURCE_FILE_NOT_EXISTS = "Error! Source File Does Not Exist.";
     private static final String DESTINATION_FILE_EXISTS = "Error! Destination File Exist.";
     private static final String FILE_NAME_EXISTS = "Error! Name is Exist.";
     private static final String RENAME_FILE_SUCCESSFULLY = "Rename File Successfully.";
@@ -28,17 +28,17 @@ public class FileManager {
     ;
 
     // Question 1:Check File exits
-    public static boolean isFileExists(String filePath){
+    public static boolean isFileExists(String filePath) {
         return new File(filePath).exists();
     }
 
-    public static boolean isFolderExists(String pathFolder){
+    public static boolean isFolderExists(String pathFolder) {
         return new File(pathFolder).isDirectory();
     }
 
     // Question 2: Create new File
     public static void createNewFile(String pathFile) throws Exception {
-        if (isFileExists(pathFile)){
+        if (isFileExists(pathFile)) {
             throw new Exception(FILE_EXISTS);
         }
 
@@ -47,7 +47,7 @@ public class FileManager {
 
     // Question 4: Delete File
     public static void deleteFile(String pathFile) throws Exception {
-        if (!isFileExists(pathFile)){
+        if (!isFileExists(pathFile)) {
             throw new Exception(FILE_NOT_EXISTS);
         }
 
@@ -55,15 +55,15 @@ public class FileManager {
     }
 
     // Question 5: Check Folder exists
-    public static boolean isFolder(String pathFolder) throws Exception{
+    public static boolean isFolder(String pathFolder) throws Exception {
         return new File(pathFolder).isDirectory();
     }
 
     // Question 6: Get all File name of Folder
-    public static List<String> getAllFileOfFolder(String pathFolder) throws Exception{
+    public static List<String> getAllFileOfFolder(String pathFolder) throws Exception {
         File file = new File(pathFolder);
 
-        if(isFolder(pathFolder)) {
+        if (isFolder(pathFolder)) {
             throw new Exception(PATH_NOT_FOLDER);
         }
         // TODO check this
@@ -72,7 +72,7 @@ public class FileManager {
 
     // Questino 7: Copy File
     // with new name
-    public static void copyFile(String sourceFile, String destinationPath) throws Exception{
+    public static void copyFile(String sourceFile, String destinationPath) throws Exception {
         if (!isFileExists(sourceFile)) {
             throw new Exception(SOURCE_FILE_NOT_EXISTS);
         }
@@ -87,7 +87,7 @@ public class FileManager {
     }
 
     // with current name
-    public static void copyFile(String sourceFile, String destinationPath, String newName) throws Exception{
+    public static void copyFile(String sourceFile, String destinationPath, String newName) throws Exception {
         if (!isFileExists(sourceFile)) {
             throw new Exception(SOURCE_FILE_NOT_EXISTS);
         }
@@ -102,7 +102,7 @@ public class FileManager {
     }
 
     // Question 8: Moving File
-    public static void moveFile(String sourceFile, String destinationPath) throws Exception{
+    public static void moveFile(String sourceFile, String destinationPath) throws Exception {
         if (!isFileExists(sourceFile)) {
             throw new Exception(SOURCE_FILE_NOT_EXISTS);
         }
@@ -121,12 +121,12 @@ public class FileManager {
     }
 
     // Question 9: Rename File
-    public static void renameFile(String pathFile, String newName) throws Exception{
+    public static void renameFile(String pathFile, String newName) throws Exception {
         if (!isFileExists(pathFile)) {
             throw new Exception(SOURCE_FILE_NOT_EXISTS);
         }
 
-        if (!isFileExists(newName)){
+        if (!isFileExists(newName)) {
             throw new Exception(FILE_NAME_EXISTS);
         }
 
@@ -138,7 +138,7 @@ public class FileManager {
 
     // Question 10: Create new Folder
     public static void createNewFolder(String newPathFolder) throws Exception {
-        if(isFolderExists(newPathFolder)){
+        if (isFolderExists(newPathFolder)) {
             throw new Exception(FOLDER_EXISTS);
         }
 
