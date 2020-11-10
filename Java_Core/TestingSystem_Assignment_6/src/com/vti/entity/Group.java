@@ -1,6 +1,8 @@
 package com.vti.entity;
 
+import java.beans.Encoder;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Arrays;
 
 import com.vti.utils.ScannerUtils;
@@ -9,11 +11,11 @@ public class Group {
 
 	private int id;
 	private String name;
-	private Account[] accounts;
+	private ArrayList<Account> accounts;
 	private LocalDate createDate;
 
 	public Group() {
-		accounts = new Account[1000];
+		accounts = new ArrayList<>();
 		input();
 	}
 
@@ -28,25 +30,26 @@ public class Group {
 	}
 
 	private void confirmAddAccount() {
-		System.out.println("Bạn có muốn add account không? (nhập 1 là có, 2 là không): ");
+		System.out.println("Bạn có muốn add account không? (nhập 1 là có, 0 là không): ");
 
-		int choose;
-		while (true) {
+		int choose = 0;
+		 do {
 			choose = ScannerUtils.inputInt("Please input a number as int");
 
 			switch (choose) {
 			case 1:
+				choose = 1;
 				addAccount();
-				return;
+				break;
 
-			case 2:
+			case 0:
 				return;
 
 			default:
 				System.out.println("Chỉ được nhập 1 hoặc 2, mời nhập lại: ");
 				break;
 			}
-		}
+		} while (true);
 	}
 
 	private void addAccount() {
@@ -54,13 +57,17 @@ public class Group {
 		int n = ScannerUtils.inputInt("Please input a number as int, please input again.");
 
 		for (int i = 0; i < n; i++) {
-			accounts[i] = new Account();
+			accounts.add(new Account());
 		}
 	}
 
 	@Override
 	public String toString() {
-		return "Group{" + "id=" + id + ", name='" + name + '\'' + ", accounts=" + Arrays.toString(accounts)
-				+ ", createDate=" + createDate + '}';
+		return "Group{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", accounts=" + accounts +
+				", createDate=" + createDate +
+				'}';
 	}
 }

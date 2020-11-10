@@ -1,6 +1,6 @@
 package com.vti.entity;
 
-//import com.vti.backend.exception.InvalidAgeInputingException;
+import com.vti.backend.exception.InvalidAgeInputingException;
 import com.vti.utils.ScannerUtils;
 
 public class Account {
@@ -28,43 +28,35 @@ public class Account {
 		System.out.println("Nhập fullname: ");
 		fullname = ScannerUtils.inputString("Please input a String, please input again.");
 
-//		System.out.println("Nhập tuổi của bạn: ");
-//		age = inputAccountAge();
+		System.out.println("Nhập tuổi của bạn: ");
+		age = inputAccountAge();
 
 	}
-//
-////	Question 11: Custom Exception
-////	Tạo custom Exception tên là: InvalidAgeInputingException.
-////	Hãy viết method inputAge() ở class Account với yêu cầu như sau:
-////	Khi người dùng nhập vào tuổi <= 0 thì throw ra Exception  InvalidAgeInputingException với message là: "The age must be greater than 0"
-//	private int inputAge() throws InvalidAgeInputingException {
-//		int age = ScannerUtils.inputInt("Please input an age as int, please input again.");
-//
-//		if (age < 0) {
-//			throw new InvalidAgeInputingException("The age must be greater than 0, please input again.");
-//		}
-//
-//		return age;
-//	}
-//
-////	Question 12: Tiếp tục Question 11
-////	Trong class Account. Sử dụng method inputAge() từ ScannerUtils, hãy viết method inputAccountAge() với yêu cầu như sau:
-////	Khi hệ thống gặp exception InvalidAgeInputingException thì sẽ in ra message.
-////	Và khi người dùng nhập vào tuổi < 18 thì in ra text "Your age must be greater than 18" và yêu cầu người dùng nhập lại tuổi
-//	private int inputAccountAge() {
-//		while (true) {
-//			try {
-//				int age = inputAge();
-//				if (age < 18) {
-//					System.out.println("Your age must be greater than 18, please input again.");
-//				} else {
-//					return age;
-//				}
-//			} catch (InvalidAgeInputingException e) {
-//				System.out.println(e.getMessage());
-//			}
-//		}
-//	}
+
+
+	private int inputAge() throws InvalidAgeInputingException {
+		int age = ScannerUtils.inputInt("Please input an age as int, please input again.");
+
+		if (age < 0) {
+			throw new InvalidAgeInputingException("The age must be greater than 0, please input again.");
+		}
+		return age;
+	}
+
+	private int inputAccountAge() {
+		while (true) {
+			try {
+				int age = inputAge();
+				if (age < 18) {
+					System.out.println("Your age must be greater than 18, please input again.");
+				} else {
+					return age;
+				}
+			} catch (InvalidAgeInputingException e) {
+				System.out.println(e.getMessage());
+			}
+		}
+	}
 
 	@Override
 	public String toString() {
