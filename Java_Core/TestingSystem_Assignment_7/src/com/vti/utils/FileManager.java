@@ -11,20 +11,20 @@ import java.util.List;
 
 public class FileManager {
 
-    private static final String FILE_EXISTS = "File Exists.";
-    private static final String CREATE_FILE_SUCCESSFULLY = "Create File Successfully.";
-    private static final String CREATE_FILE_FAIL = "Create File Fail.";
-    private static final String FILE_NOT_EXISTS = "Error! File Not Exist.";
-    private static final String DELETE_FILE_SUCCESSFULLY = "Delete File Successfully.";
-    private static final String PATH_NOT_FOLDER = "Error! Path Is Not Folder.";
-    private static final String SOURCE_FILE_NOT_EXISTS = "Error! Source File Does Not Exist.";
-    private static final String DESTINATION_FILE_EXISTS = "Error! Destination File Exist.";
-    private static final String FILE_NAME_EXISTS = "Error! Name is Exist.";
-    private static final String RENAME_FILE_SUCCESSFULLY = "Rename File Successfully.";
-    private static final String RENAME_FILE_FAIL = "Rename File Fail.";
-    private static final String FOLDER_EXISTS = "Folder Exists.";
-    private static final String CREATE_FOLDER_SUCCESSFULLY = "Create Folder Successfully.";
-    private static final String CREATE_FOLDER_FAIL = "Create Folder Fail.";
+    public static final String FILE_EXISTS = "File Exists.";
+    public static final String CREATE_FILE_SUCCESSFULLY = "Create File Successfully.";
+    public static final String CREATE_FILE_FAIL = "Create File Fail.";
+    public static final String FILE_NOT_EXISTS = "Error! File Not Exist.";
+    public static final String DELETE_FILE_SUCCESSFULLY = "Delete File Successfully.";
+    public static final String PATH_NOT_FOLDER = "Error! Path Is Not Folder.";
+    public static final String SOURCE_FILE_NOT_EXISTS = "Error! Source File Does Not Exist.";
+    public static final String DESTINATION_FILE_EXISTS = "Error! Destination File Exist.";
+    public static final String FILE_NAME_EXISTS = "Error! Name is Exist.";
+    public static final String RENAME_FILE_SUCCESSFULLY = "Rename File Successfully.";
+    public static final String RENAME_FILE_FAIL = "Rename File Fail.";
+    public static final String FOLDER_EXISTS = "Folder Exists.";
+    public static final String CREATE_FOLDER_SUCCESSFULLY = "Create Folder Successfully.";
+    public static final String CREATE_FOLDER_FAIL = "Create Folder Fail.";
     ;
 
     // Question 1:Check File exits
@@ -153,7 +153,7 @@ public class FileManager {
         }
 
         // get name file
-        String s[] = fileLink.split("/");
+        String[] s = fileLink.split("/");
         String name = s[s.length - 1];
 
         String pathFile = pathFolder + "//" + name;
