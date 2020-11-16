@@ -61,8 +61,10 @@ public class Basic {
         return statement.executeUpdate();
     }
 
-    public int question5(){
+    public int question5() throws SQLException {
+        String sql = "DELETE FROM Positions WHERE PositionID = ?";
+        PreparedStatement statement = connection.prepareStatement(sql);
 
-        return 1;
+        return statement.executeUpdate();
     }
 }
