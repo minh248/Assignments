@@ -3,12 +3,9 @@ package com.vti.backend;
 import com.vti.entity.ex1.Student;
 import com.vti.utils.ScannerUtils;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
-public class Ex1 {
+public class Exercise1 {
     static List<Student> students = new ArrayList<>();
     static private final Scanner scanner = new Scanner(System.in);
 
@@ -106,5 +103,17 @@ public class Ex1 {
         }
     }
 
+    public void question6(){
+        Map<Integer, String> students = new HashMap<>();
+        students.put(1, "Đăng");
+        students.put(2, "Quý");
+        students.put(3, "Kiên");
+        students.put(4, "Duy");
+        students.put(5, "Bích");
+
+        for (Map.Entry<Integer, String> entry : students.entrySet()) {
+            System.out.println("ID: " + entry.getKey() + " / " + "Name: " + entry.getValue());
+        }
+    }
 
 }
