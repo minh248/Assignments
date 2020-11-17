@@ -1,14 +1,6 @@
 package com.vti.frontend;
 
-import com.vti.backend.businesslayer.UserService;
-import com.vti.backend.datalayer.UserRepository;
-import com.vti.backend.presentationlayer.UserController;
-import com.vti.entity.Manager;
-import com.vti.entity.User;
 import com.vti.utils.ScannerUtils;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Program {
     public static void main(String[] args) throws Exception {
