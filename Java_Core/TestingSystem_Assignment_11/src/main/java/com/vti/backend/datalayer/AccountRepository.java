@@ -1,10 +1,7 @@
 package com.vti.backend.datalayer;
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,17 +20,13 @@ public class AccountRepository {
 
 		List<Account> accounts = new ArrayList<>();
 
-		// get connection
 		Connection connection = jdbcUtils.connect();
 
-		// create a statement object
-		String sql = "SELECT AccountId, Email, Username, FullName FROM `Account`";
+		String sql = "SELECT AccountId, Email, Username, FullName FROM `accounts`";
 		Statement statement = connection.createStatement();
 
-		// execute query
 		ResultSet resultSet = statement.executeQuery(sql);
 
-		// Handing result set
 		while (resultSet.next()) {
 			Account account = new Account(resultSet.getInt("AccountId"), resultSet.getString("Email"),
 					resultSet.getString("Username"), resultSet.getString("Fullname"));
@@ -41,7 +34,6 @@ public class AccountRepository {
 			accounts.add(account);
 		}
 
-		// disconnect
 		jdbcUtils.disconnect();
 		return accounts;
 	}

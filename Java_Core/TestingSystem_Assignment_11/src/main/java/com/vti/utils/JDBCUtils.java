@@ -14,7 +14,7 @@ public class JDBCUtils {
 
     public JDBCUtils() throws FileNotFoundException, IOException, ClassNotFoundException, SQLException {
         properties = new Properties();
-        properties.load(new FileInputStream("src/main/resource/com/config.properties"));
+        properties.load(new FileInputStream("src/main/java/resource/config.properties"));
         connect();
     }
 

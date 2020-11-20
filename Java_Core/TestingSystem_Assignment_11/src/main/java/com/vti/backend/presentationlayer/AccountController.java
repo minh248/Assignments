@@ -14,8 +14,4 @@ public class AccountController {
 	public AccountController() throws IOException, SQLException, ClassNotFoundException {
 		service = new AccountService();
 	}
-
-	public List<Account> getListAccounts() throws SQLException, IOException, ClassNotFoundException {
-		return service.getListAccounts();
-	}
 }
