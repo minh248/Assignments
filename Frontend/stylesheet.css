@@ -1,0 +1,90 @@
+/* Exercise 4*/
+.author {
+    color: #fb6c27;
+}
+
+.link {
+    color: #41455e;
+    text-decoration: none;
+}
+
+.img {
+    margin-left: 20px;
+}
+
+.img {
+    width: auto;
+}
+
+.img p{
+    background-color: darkgrey;
+    width: auto;
+}
+
+/* Table*/
+table, th, td, tr{
+    border: 1px solid black;
+}
+
+/* Exercise 3*/
+#e3q1 h1{
+    color: blue;
+}
+
+#e3q1 p{
+    color: red;
+}
+
+#p1 {
+    background-color: tomato;
+}
+
+#p2 {
+    background-color: orange;
+}
+
+#p3 {
+    background-color: dodgerblue;
+}
+
+#p4 {
+    background-color: mediumseagreen;
+}
+
+#p5 {
+    background-color: gray;
+}
+
+#p6 {
+    background-color: slateblue;
+}
+
+#p7 {
+    background-color: violet;
+}
+
+#p8 {
+    background-color: lightgray;
+}
+
+#p9 {
+    border: 1px tomato solid;
+}
+
+#p10 {
+    border: 1px dodgerblue solid;
+}
+
+#p11 {
+    border: 1px violet solid;
+}
+
+#header-btn {
+    float: right;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 99, 71);
+}
