@@ -37,4 +37,6 @@ public class Account {
 		return "Account{" + "AccountID=" + AccountID + ", Email='" + Email + '\'' + ", Username='" + Username + '\''
 				+ ", FullName='" + FullName + '\'' + '}';
 	}
+
+
 }
