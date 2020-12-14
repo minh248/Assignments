@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/54bcd529e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="main.js"></script>
+
+    <nav >
+        <ul class="top-nav">
+            <li class="left"><a href="#">Home <i class="fas fa-caret-down"></i></a></li>
+            <li class="left"><a href="#">View List Employees <i class="fas fa-caret-down"></i></a></li>
+            <li class="right"><a href="#"> <i class="fab fa-facebook-square"></i> </a></li>
+            <li class="right"><a href="#"> <i class="fab fa-instagram-square"></i> </a></li>
+            <li class="right"><a href="#"> <i class="fab fa-twitter-square"></i> </a></li>
+        </ul>
+    </nav>
+
+    <br>
+
+    <div class="main-container">
+        <form>
+            <table class="center">
+                <tr>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Phone</th>
+                </tr>
+                <tr>
+                    <td><input type="text" class="input" name="name"></td>
+                    <td><input type="text" class="input" name="department"></td>
+                    <td><input type="text" class="input" name="phone"></td>
+                    <td class="add-btn">
+                        <button type="submit"> <i class="fas fa-plus-square"></i> Add</button>
+                    </td>
+                </tr> 
+            </table>
+        </form>
+
+        <br>
+
+        <div class="del-btn-container center">
+            <a class="del-btn" onclick="deleteAllEmployee()"> <i class="fas fa-trash"></i> Delete temporarily all</a>
+        </div>
+    </div>
+</body>
+</html>

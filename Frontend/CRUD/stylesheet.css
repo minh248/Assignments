@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Top navigation */
+.top-nav {
+    background-color: #343434;
+}
+
+.top-nav {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+.top-nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 16px;
+}
+
+.top-nav a:hover {
+    background-color: #666666;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* main */
+table{
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+table th {
+    padding: 8px 16px;
+}
+
+table a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+form button, form input{
+    font-size: 16px;
+    border: none;
+    padding: 8px;
+    background-color: white;
+}
+
+.add-btn {
+    margin: auto;
+    text-align: center;
+}
+
+.add-btn button{
+    background-color: white;
+    cursor: pointer;
+}
+
+.add-btn button:hover {
+    background-color: white;
+}
+
+.employee-info td{
+    padding: 8px;
+}
+
+/* Delete button */
+.del-btn {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    padding: 8px;
+    font-size: 16px;
+}
+
