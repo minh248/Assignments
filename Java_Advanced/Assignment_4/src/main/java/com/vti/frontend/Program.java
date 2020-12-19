@@ -26,12 +26,12 @@ public class Program {
         System.out.println(group.toString());
 
         // Delete group
-//        departmentRepository.deleteGroupById(6);
-//        List<Group> groups2 = departmentRepository.getAllGroups();
-//
-//        for (Group g : groups2) {
-//            System.out.println(g.toString());
-//        }
+        departmentRepository.deleteGroupById(1);
+        List<Group> groups2 = departmentRepository.getAllGroups();
+
+        for (Group g : groups2) {
+            System.out.println(g.toString());
+        }
     }
 
     public static void printAllGroups(){
