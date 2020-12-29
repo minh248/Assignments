@@ -33,8 +33,4 @@ public class Program {
             System.out.println(g.toString());
         }
     }
-
-    public static void printAllGroups(){
-
-    }
 }

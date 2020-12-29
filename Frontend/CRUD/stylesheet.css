@@ -3,6 +3,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
 /* Container */
 .center {
     display: flex;
@@ -95,3 +99,11 @@ form button, form input{
     font-size: 16px;
 }
 
+/* Edit table */
+.black-gr {
+    position: absolute;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1000;
+}
