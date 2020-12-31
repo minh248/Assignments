@@ -11,7 +11,6 @@ function buildTable() {
                 " <td>"+ e.name +"</td>" +
                 "<td>" + e.department + "</td>" +
                 "<td>" + e.phone + "</td>" +
-
                 "<a href='#' onclick='editEmployee()'> <i class=\"fas fa-edit\"></i> Edit </a>" +
                 "<a href='#' onclick='deleteEmployee("+ e.id +")'> <i class=\"fas fa-trash\"></i> Delete </a>" +
                 "</td> " +
