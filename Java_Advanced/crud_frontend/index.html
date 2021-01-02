@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/54bcd529e0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="main.js"></script>
+
+    <header class="header">
+        <a class="logo" href="#"><img src="vtilogo.png" alt="VTI acaemy logo"></a>
+        <nav class="top-nav">
+            <a href="#"><i class="fas fa-bars"></i></a>
+            <a href="#"><i class="fas fa-bell"></i></a>
+            <a href="#"><i class="fas fa-user-tie"></i></a>
+        </nav>
+    </header>
+
+    <div class="body">
+        <div class="main">
+            <h1>Manage Group</h1>
+            <br>
+            <h3 href="#">Create Group</h3>
+            <form id="create-form">
+                <label>Name:</label><input name="name" type="text"><br>
+                <label>Member:</label><input name="member" type="number"><br>
+                <label>Creator:</label><input name="creator" type="text"><br>
+                <label>Create Date:</label><input name="createDate" type="date"><br>
+                <button onclick="createGroup()"> Create </button>
+            </form>
+
+            <br>
+
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Group name</th>
+                    <th>Member</th>
+                    <th>Creator</th>
+                    <th>Create Date</th>
+                    <th></th>
+                </tr>
+            </table>
+
+            <br>
+
+            <form id="edit-form">
+                <label>ID:</label><input name="id" value="1" type="text" disabled><br>
+                <label>Name:</label><input name="name1" type="text" required><br>
+                <label>Member:</label><input name="member1" type="number" required><br>
+                <label>Creator:</label><input name="creator1" type="text" required><br>
+                <label>Create Date:</label><input name="createDate1" type="date" required><br>
+                <button onclick="editGroup()"> Edit </button>
+            </form>
+        </div>
+
+        <div class="right-nav">
+            <a href="#"><i class="fas fa-home"></i></a>
+            <a href="#"><i class="fas fa-user-alt"></i></a>
+            <a href="#"><i class="fas fa-users"></i></a>
+            <a href="#"><i class="fas fa-bars"></i></a>
+            <a href="#"><i class="far fa-file-alt"></i></a>
+            <a href="#"><i class="fas fa-question"></i></a>
+        </div>
+    </div>
+
+<!--    <div class="edit-container"></div>-->
+
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    height: 100%;
+}
+
+/* Header*/
+
+a {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    cursor: pointer !important;
+}
+
+.header {
+    font-size: 30px;
+}
+
+.header, .top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+.top-nav {;
+    display: flex;
+    flex-direction: row;
+    padding-right: 16px;
+}
+
+.top-nav a {
+    padding: 16px 20px;
+}
+
+.top-nav a:hover {
+    color: rgb(20, 20, 20);
+    background-color: darkgrey;
+}
+
+.header .logo{
+    height: 1.6em;
+    padding-left: 20px;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* Body */
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 100%;
+}
+
+/* Right navigation */
+.right-nav{
+    display: flex;
+    flex-direction: column;
+    border: black solid;
+    height: 100%;
+}
+
+.right-nav a{
+    padding: 16px 20px;
+}
+
+.right-nav a:hover {
+    color: rgb(20, 20, 20);
+    background-color: darkgrey;
+}
+
+/* Main */
+.main {
+    width: 100%;
+    margin: 20px 50px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    border-collapse: collapse;
+    width: 80%;
+    border: black solid;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+th a {
+    padding: 0 20px;
+}
+
+th a:hover {
+    color: red;
+}
+
+/* Edit board */
+.edit-container {
+    position: absolute;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+#create-form{
+    font-size: 18px;
+}
+
+#edit-form{
+    display: none;
+    margin-bottom: 50px;
+}
