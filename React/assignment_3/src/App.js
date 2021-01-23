@@ -1,19 +1,13 @@
 import './App.css'
-import Person from './Person'
-
-function hello() {
-  console.log("hello");
-}
-
-var fullName = "Duc Minh"
-var age = 20
+import React from 'react'
+import Ex1 from './Component/Ex1'
 
 
 function App() {
   return (
-      <div>
-          <Person fullName={fullName} age={age} />
-      </div>
+      <React.Fragment>
+          <Ex1/>
+      </React.Fragment>
   )
 }
 

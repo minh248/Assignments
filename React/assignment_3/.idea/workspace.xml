@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="68540c2b-4799-402a-92c1-6670f853d296" name="Default Changelist" comment="">
+    <list default="true" id="68540c2b-4799-402a-92c1-6670f853d296" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/../../Java_Advanced/Lession8" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java_Advanced/Lession8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Assignment_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Assignment_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -50,6 +64,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Assignments\React\Assignment_3\src\Component" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -62,9 +81,14 @@
         <script value="start" />
       </scripts>
       <node-interpreter value="project" />
+      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -77,11 +101,62 @@
       <option name="presentableId" value="Default" />
       <updated>1610966209383</updated>
       <workItem from="1610966210955" duration="227000" />
-      <workItem from="1610966486890" duration="4674000" />
+      <workItem from="1610966486890" duration="12649000" />
+      <workItem from="1611304816904" duration="3346000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1611031049793</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611031049793</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611047074661">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1611047074661" />
+    <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611304847098">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1611304847098" />
+    <state width="1237" height="53" key="GridCell.Tab.0.bottom" timestamp="1611308510645">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="53" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1611308510645" />
+    <state width="1237" height="53" key="GridCell.Tab.0.center" timestamp="1611308510645">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="53" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1611308510645" />
+    <state width="1237" height="53" key="GridCell.Tab.0.left" timestamp="1611308510645">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="53" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1611308510645" />
+    <state width="1237" height="53" key="GridCell.Tab.0.right" timestamp="1611308510645">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="53" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1611308510645" />
   </component>
 </project>
