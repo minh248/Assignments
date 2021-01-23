@@ -12,10 +12,10 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "../assigment_4/node_modules/.bin/react-scripts start",
+    "build": "../assigment_4/node_modules/.bin/react-scripts build",
+    "test": "../assigment_4/node_modules/.bin/react-scripts test",
+    "eject": "../assigment_4/node_modules/.bin/react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
