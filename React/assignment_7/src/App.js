@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react'
-import EmployeeList from "./api/test";
+import EmployeeList from "./Ex1/EmployeeList";
 
 function App() {
     return (
