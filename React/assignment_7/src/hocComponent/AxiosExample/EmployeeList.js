@@ -1,5 +1,5 @@
-import Api from './Api'
 import React from 'react'
+import EmployeeApi from "../api/EmployeeApi";
 
 class EmployeeList extends React.Component{
     constructor(props) {
@@ -9,15 +9,15 @@ class EmployeeList extends React.Component{
         }
     }
 
-    getListEmployee = () => {
-        const url = `/api/v1/employees`
-
-        Api.get(url)
-            .then(res => {
-                this.setState({
-                    employees: res.data
-                })
+    getListEmployee = async () => {
+        const employees = await EmployeeApi.getAll()
+        try {
+            this.setState({
+                employees: employees
             })
+        } catch (e) {
+            console.log(e)
+        }
     }
 
     componentDidMount() {
@@ -25,7 +25,7 @@ class EmployeeList extends React.Component{
     }
 
     render() {
-        const personList = this.state.employees.map(employee => {
+        const employeeList = this.state.employees.map(employee => {
             return (
                 <li key={employee.id}>
                     {employee.name}
@@ -35,7 +35,7 @@ class EmployeeList extends React.Component{
 
         return (
             <p>
-                {personList}
+                {employeeList}
             </p>
         )
     }

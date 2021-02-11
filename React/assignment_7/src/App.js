@@ -1,13 +1,28 @@
 import './App.css';
 import React from 'react'
-import EmployeeList from "./Ex1/EmployeeList";
+import EmployeeContainer from "./hocComponent/Example_2/EmployeeContainer";
+import AuthenticatedContext from "./hocComponent/context/AuthenticatedContext";
+import MyComponent from "./renderPropsComponent/Ex1/MyComponent";
 
-function App() {
-    return (
-        <React.Fragment>
-            <EmployeeList/>
-        </React.Fragment>
-    );
+class App extends React.Component {
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //         isAuthenticated: true
+    //     }
+    // }
+
+    render() {
+        return (
+            <>
+                {/*<AuthenticatedContext.Provider value={this.state.isAuthenticated}>*/}
+                {/*    <EmployeeContainer/>*/}
+                {/*</AuthenticatedContext.Provider>*/}
+
+                <MyComponent/>
+            </>
+        );
+    }
 }
 
 export default App;
