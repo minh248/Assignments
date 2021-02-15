@@ -28,11 +28,10 @@ class UserContainer extends React.Component{
 
     render() {
         const UserListWithLoading = WithLoading(UserList)
-        // UserListWithLoading.displayName = `xxxxxx`
 
         return (
             <>
-                {/*<button onClick={this.getUserList}>Show users</button>*/}
+                <button onClick={this.getUserList}>Show users</button>
                 <UserListWithLoading isLoading={this.state.users.length === 0} users={this.state.users}/>
             </>
         )
