@@ -22,9 +22,9 @@ class UserContainer extends React.Component{
         }
     }
 
-    componentDidMount() {
-        this.getUserList()
-    }
+    // componentDidMount() {
+    //     this.getUserList()
+    // }
 
     render() {
         const UserListWithLoading = WithLoading(UserList)

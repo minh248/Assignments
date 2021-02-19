@@ -3,6 +3,7 @@ import React from 'react'
 import EmployeeContainer from "./hocComponent/Example_2/EmployeeContainer";
 import AuthenticatedContext from "./hocComponent/context/AuthenticatedContext";
 import MyComponent from "./renderPropsComponent/Ex1/MyComponent";
+import UserContainer from "./hocComponent/Example_1/UserContainer";
 
 class App extends React.Component {
     // constructor(props) {
@@ -19,7 +20,8 @@ class App extends React.Component {
                 {/*    <EmployeeContainer/>*/}
                 {/*</AuthenticatedContext.Provider>*/}
 
-                <MyComponent/>
+                {/*<MyComponent/>*/}
+                <UserContainer/>
             </>
         );
     }
